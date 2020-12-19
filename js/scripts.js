@@ -40,8 +40,7 @@ function enableCam(event) {
 	  video.addEventListener('loadeddata', predictWebcam);
 	});
   }
-
-  
+  var children = [];
   
 
   function predictWebcam() {
